@@ -17,6 +17,7 @@ import java.util.jar.Manifest
 
 class MainActivity : LoclistenerInterface, AppCompatActivity()  {
 
+    private var privet:Int = 0
     private lateinit var loclistener: Loclistener
     private lateinit var locationManager:LocationManager
     private  var lastLocation:Location? = null
